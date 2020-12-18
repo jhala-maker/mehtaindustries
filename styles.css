@@ -767,7 +767,7 @@ body{
   }
 
   .welcome-heading{
-    top: 30vmin;
+    top: 35vmin;
     right: 4vmin;
     width:60%;
     text-align: center;
@@ -842,7 +842,7 @@ body{
 @media only screen  and (max-width:375px ){
 
   .welcome-heading{
-    top: 33vmin;
+    top: 37vmin;
     right: 4vmin;
     width:60%;
     text-align: center;
@@ -867,7 +867,7 @@ body{
   top: -17vmin;
  }
  .welcome-heading{
-   top: 38vmin;
+   top: 40vmin;
    right: 4vmin;
    width:60%;
    text-align: center;
@@ -875,7 +875,7 @@ body{
 
  .final{
    width: 80%;
-   top: 25vmin;
+   top: 35vmin;
    left: 6vmin;
  }
 }
