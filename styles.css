@@ -1,0 +1,882 @@
+body{
+  color: black;
+  line-height: 2;
+  width: 100%;
+}
+
+
+
+/************************* Navigatiion Bar ****************/
+
+.navbar-fixed{
+  background-color: lightblue;
+  width:100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: 0% 0% 6% 0% / 0% 100% 100% 0%;
+  z-index: 3;
+}
+
+.navbar-inverse .navbar-nav li a{
+  color: black;
+}
+.header{
+  margin:0 12px 0 12px;
+}
+
+.navbar-toggle{
+  margin-right: 8vmin;
+}
+.navbar-right{
+  font-size: 1.7rem;
+}
+
+.navbar-right li{
+  margin-right: 10vmin;
+}
+.navbar-reverse{
+  margin-bottom: 0;
+}
+
+.navbar-brand{
+  margin:0;
+  padding:0;
+}
+.logo{
+  width: 160px;
+  height: 160px;
+  position: fixed;
+  top: -7.8vmin;
+  margin-top:0;
+  margin-left: 3vmin;
+}
+/************************* Navigatiion Bar ****************/
+.jhala{
+  width: 50vw;
+  height:100px;
+  border-radius: 10%;
+  visibility: hidden;
+  position: relative;
+  top:0;
+  z-index: 6;
+  background-color: Orange;
+  animation-name: jhala1;
+  animation-duration: 7s;
+}
+
+@keyframes jhala1{
+  0%{position:relative; top:-20vmin; }
+  80%{ top:20vmin; visibility: visible;}
+  100%{ top:20vmin; visibility: visible;}
+}
+/************************* Main-Page START  ****************/
+
+/************************* Welcome-Section START  ****************/
+
+.welcome-section{
+  width: 100%;
+  height: 100vh;
+}
+
+.final{
+  width: 50%;
+  position: absolute;
+  top: 5vmin;
+  left: 25vmin;
+  margin-left: auto;
+}
+
+.background img{
+  width: 100%;
+  height: 100vh;
+}
+.welcome-heading{
+  position: absolute;
+  top: 10vmin;
+  right: 20vmin;
+  width: 45%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: right;
+}
+/************************* Welcome-Section END  ****************/
+
+/************************* Introduction-Section START  ****************/
+
+.introduction-section{
+  margin-top: 20vmin;
+  margin-bottom: 20vmin;
+  line-height: 2;
+}
+
+.intro-para{
+  margin-bottom: 23vmin;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pfont{
+  font-size: 2rem;
+}
+.intro-para #p1{
+  order:1;
+}
+.intro-para #p2{
+  order:2;
+}
+
+.intro-para #p3{
+  order:3;
+}
+.intro-para p{
+  width: 65%;
+  margin-bottom: 10vmin;
+  text-align:center;
+}
+
+.our-products{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vmin;
+}
+
+.our-products img{
+  width: 30vw;
+  height:100vh;
+}
+
+.doors-img img{
+    float:right;
+}
+.doors-section{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: flex-start;
+}
+
+.door-desc1{
+  width: 65%;
+  margin-top: 15vmin;
+}
+/************************* Introduction-Section END  ****************/
+
+/************************* Flushdoor-Section END  ****************/
+.multidoor-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flushdoor-desc2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 10vmin auto;
+}
+
+.pwidth{
+  width:85%;
+  text-align:left;
+  margin: 3vmin auto;
+}
+
+/************************* Flushdoor-Section END  ****************/
+
+/************************* laminateddoor-Section START  ****************/
+
+.laminateddoor-section{
+  display: flex;
+  justify-content: center;
+  margin: 5vmin;
+}
+.laminateddoor-img{
+  display: Flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.laminateddoor-desc3{
+  margin: auto 20px;
+  line-height: 1.5;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.laminateddoor-desc3 h2{
+  text-align: center;
+  margin-bottom: 7vmin;
+}
+/************************* Laminateddoor-Section END  ****************/
+
+/************************* Mouldeddoor-Section START  ****************/
+
+.mouldeddoor-section{
+  display: flex;
+  justify-content: center;
+  margin: 15vmin 0;
+}
+.mouldeddoor-img{
+  order: 2;
+  display: Flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.mouldeddoor-desc4{
+  line-height: 1.5;
+  width: 50%;
+  margin: 15vmin 0 15vmin 0;
+}
+
+.mouldeddoor-desc4 h2{
+  text-align: center;
+  margin: 7vmin;
+}
+/************************* Mouldeddoor-Section END  ****************/
+
+/************************* laminateddoor-Section START  ****************/
+
+.frpdoor-section{
+  display: flex;
+  justify-content: center;
+  margin: 15vmin;
+}
+.frpdoor-img{
+  display: Flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.frpdoor-desc5{
+  margin: auto 20px;
+  line-height: 1.5;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.frpdoor-desc5 h2{
+  text-align: center;
+  margin-bottom: 7vmin;
+}
+/************************* Laminateddoor-Section END  ****************/
+
+/************************* Main-Page END  ****************/
+
+/************************* Contact-Section START ****************/
+
+.contact-section{
+  margin-top: 10vmin;
+}
+
+.contact-display{
+  margin-top: 20vmin;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.contact-box{
+  margin: 5vmin;
+  border: 1px solid black;
+  border-radius: 20%;
+  width: 18%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-contact{
+  font-size: 2rem;
+}
+.contact-details{
+  font-size: 1.20rem;
+  text-align: left;
+}
+
+.svg{
+  margin-top: 2vmin;
+  color: #F2994A;
+}
+
+.contact-links{
+  color: black;
+  text-decoration: none;
+}
+
+.contact-links:hover{
+  text-decoration: underline ;
+  color: #F2994A;
+}
+
+/************************* Contact-Section END  ****************/
+
+.line{
+  border-bottom: 1px solid black;
+  margin: auto;
+  margin-top: 10vmin;
+  width: 90%;
+}
+
+/************************* Map start  ****************/
+
+.flex-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.map{
+  width: 35vw;
+  margin: 10vmin 14vmin 10vmin 10vmin;
+  border-radius: 10%;
+  height: 80vh;
+}
+
+/************************* Map END  ****************/
+
+/************************* Form START  ****************/
+
+.form{
+  width: 35vw;
+  height: 80vh;
+  margin: 10vmin 10vmin 10vmin 0;
+  border: 1px solid black;
+}
+
+/************************* Form END  ****************/
+
+
+/************************* ABOUT US START  ****************/
+
+.aboutus-section{
+  margin: 20vmin 10vmin 10vmin 5vmin;
+}
+
+.about-flex{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10vmin;
+}
+
+.undraw{
+  width: 45vw;
+  height:45vh;
+}
+
+.aboutus-details{
+  width: 45vw;
+  margin-top: 15vmin;
+  line-height: 160%;
+}
+
+.door{
+  margin-left: 15px;
+}
+
+.logistics{
+  margin-right: 15px;
+}
+/************************* ABOUT US END  ****************/
+
+
+/************************* FOOTER START  ****************/
+
+.footer{
+  background-color: lightblue;
+  width: 100%;
+  height: 15%;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  color: black;
+  border-radius: 0% 2% 0% 0% / 0% 70% 0% 0%;
+}
+
+.footer p{
+  width: 80%;
+  text-align: center;
+  padding-left: 15%;
+}
+/************************* FOOTER END  ****************/
+
+
+/************************* MEDIA QUERIES START  ****************/
+@media only screen and (min-width:1400px){
+  .logo{
+  top: -5.5vmin;
+  }
+}
+@media only screen and (min-width:1240px){
+  .logo{
+  top: -7.5vmin;
+  }
+}
+@media only screen and (min-width:2250px){
+  .logo{
+  top: -4vmin;
+  }
+}
+
+@media only screen and (min-width:650px) and (max-width:768px ){
+
+  .contact-box{
+    width: 26%;
+    height: 26%;
+  }
+  .main-contact{
+    font-size: 1.25rem;
+  }
+
+  .contact-details{
+    font-size: 1rem;
+  }
+
+  .navbar-fixed{
+    border-radius:0% 0% 9% 0% / 0% 100% 100% 0% ;
+  }
+}
+
+
+@media only screen and (min-width:769px) and (max-width:1000px ){
+
+  .contact-box{
+    width: 20%;
+    height: 20%;
+  }
+
+  .main-contact{
+    font-size: 1.5rem;
+  }
+  .contact-details{
+    font-size: 1rem;
+  }
+
+  .form{
+    width: 30vw;
+  }
+
+  .map{
+    width: 40vw;
+    height: 60vh;
+  }
+
+  .navbar-fixed{
+    border-radius: 0% 0% 15% 0% / 0% 100% 100% 0% ;
+  }
+  .footer{
+    border-radius:0% 13% 0% 0% / 0% 100% 100% 0% ;
+  }
+
+  .aboutus-details{
+    width: 55vw;
+    font-size: 1.9rem;
+    font-weight: normal;
+  }
+  .logo{
+    top: -9.5vmin;
+  }
+}
+
+@media  only screen and (max-width:1240px){
+  .laminateddoor-section{
+    flex-direction: column;
+  }
+
+  .laminateddoor-img img{
+    width: 80%;
+  }
+  .laminateddoor-desc3{
+    margin-top: 5vmin;
+    width: 85%;
+  }
+
+  .logo{
+    top: -7.5vmin;
+  }
+}
+
+@media  only screen and (max-width:768px){
+
+  .welcome-heading{
+    top: 23vmin;
+    right: 0vmin;
+    width:65%;
+    text-align: center;
+  }
+  .welcome-heading h1{
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .welcome-heading h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  .final{
+    width: 55%;
+    top: 5vmin;
+    left: 17vmin;
+  }
+
+  .intro-para p{
+    width: 75%;
+  }
+
+  .door-desc1{
+      line-height: 1.5;
+      width: 100%;
+      margin:auto 3vmin;
+  }
+
+  .pwidth{
+    line-height: 1.5;
+    text-align: center;
+  }
+  .our-products{
+    margin-left: 5vmin;
+  }
+  .our-products img{
+    width: 90vw;
+    margin: auto;
+  }
+  .flushdoor-desc2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .multidoor-img h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .laminateddoor-section{
+    flex-direction: column;
+  }
+
+  .laminateddoor-img img{
+    width: 60%;
+  }
+  .laminateddoor-desc3{
+    margin: auto 3vmin;
+    margin-top: 5vmin;
+    width: 100%;
+  }
+
+  .laminateddoor-desc3 h2{
+    font-size: 2rem;
+    font-weight: 500%;
+  }
+
+  .mouldeddoor-section{
+    flex-direction: column;
+  }
+
+  .mouldeddoor-img img{
+    width: 60%;
+  }
+  .mouldeddoor-desc4{
+    order:2;
+    margin-top: 5vmin;
+    width: 100%;
+  }
+
+  .mouldeddoor-desc4 h2{
+    font-size: 2rem;
+    font-weight: 500%;
+  }
+
+  .frpdoor-section{
+    flex-direction: column;
+    margin: 15vmin 3vmin;
+  }
+
+  .frpdoor-img img{
+    width: 60%;
+  }
+  .frpdoor-desc5{
+    margin-top: 5vmin;
+    width: 100%;
+  }
+
+  .frpdoor-desc5 h2{
+    font-size: 2rem;
+    font-weight: 500%;
+  }
+
+  .flex-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form{
+    width: 70vw;;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5vmin;
+  }
+
+  .map{
+    width: 80vw;
+    height: 50vh;
+    margin: 10vmin auto;
+  }
+  .aboutus-details{
+    width: 65vw;
+    font-size: 1.7rem;
+  }
+  .logo{
+    top: -9vmin;
+  }
+}
+
+@media  only screen and (max-width:650px){
+
+  .welcome-heading h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .welcome-heading h3{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .welcome-heading{
+    top: 24vmin;
+    right: 4vmin;
+    width:60%;
+    text-align: center;
+  }
+
+  .final{
+    width: 60%;
+    top: 8vmin;
+    left: 12vmin;
+  }
+
+  .multidoor-img img{
+    width: 95%;
+  }
+  .contact-display{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-box{
+    width: 25%;
+    height: 25%;
+  }
+
+  .main-contact{
+    font-size: 1.5rem;
+  }
+  .contact-details{
+    font-size: 1rem;
+  }
+
+  .navbar-fixed{
+    border-radius: 0% 0% 18% 0% / 0% 100% 100% 0% ;
+  }
+  .footer{
+    border-radius: 0% 13% 0% 0% / 0% 100% 100% 0% ;
+    font-size: 1.5rem;
+  }
+  .logo{
+    top: -9.5vmin;
+  }
+}
+
+@media only screen  and (max-width:550px ){
+  .contact-box{
+    width: 40%;
+    height: 40%;
+  }
+
+  .aboutus-details{
+    font-size: 1.5rem;
+  }
+
+  .form{
+    width: 90vw;
+  }
+  .logo{
+    top: -10.5vmin;
+  }
+
+  .welcome-heading{
+    top: 24vmin;
+    right: 4vmin;
+    width:60%;
+    text-align: center;
+  }
+
+  .final{
+    width: 60%;
+    top: 13vmin;
+    left: 9vmin;
+  }
+}
+@media only screen  and (max-width:500px ){
+  .logo{
+    top: -11.5vmin;
+  }
+  .welcome-heading{
+    top: 26vmin;
+    right: 4vmin;
+    width:60%;
+    text-align: center;
+  }
+
+  .final{
+    width: 70%;
+    top: 14vmin;
+    left: 8vmin;
+  }
+}
+@media only screen  and (max-width:425px ){
+
+  .crop-img{
+    overflow: hidden;
+  }
+
+  .introduction-section{
+    font-size: 1.5rem;
+  }
+
+  .pfont{
+    font-size: 1.7rem;
+  }
+
+  .welcome-heading{
+    top: 30vmin;
+    right: 4vmin;
+    width:60%;
+    text-align: center;
+  }
+
+  .final{
+    width: 70%;
+    top: 18vmin;
+    left: 8vmin;
+  }
+  .intro-para p{
+    width: 80%;
+  }
+  .doors-section{
+    flex-direction:column;
+    align-items: center;
+  }
+
+  .doors-img img{
+      float:none;
+  }
+
+  .door-desc1{
+    width: 100%;
+    margin:auto 3vmin;
+    order:2;
+    text-align: center;
+  }
+  .contact-box{
+    width: 45%;
+    height: 45%;
+  }
+
+  .footer{
+    border-radius: 0% 29% 0% 0% / 0% 100% 100% 0% ;
+    font-size: 1.5rem;
+  }
+  .footer p{
+    width: 90%;
+  }
+
+  .about-flex{
+    flex-direction:column;
+    align-items: center;
+    margin-top:5vmin;
+  }
+  .door{
+    order: 2;
+  }
+
+  .logistics{
+    order:2;
+  }
+  .undraw{
+    width: 80vw;
+    height: 50vw;
+    margin-top:0;
+  }
+
+  .aboutus-details{
+    width: 90vw;
+    font-size: 1.7rem;
+    margin: 10vmin;
+    margin-left: 10vmin;
+  }
+  .logo{
+    top: -13.5vmin;
+  }
+
+}
+
+@media only screen  and (max-width:375px ){
+
+  .welcome-heading{
+    top: 33vmin;
+    right: 4vmin;
+    width:60%;
+    text-align: center;
+  }
+
+  .final{
+    width: 70%;
+    top: 20vmin;
+    left: 8vmin;
+  }
+  .contact-box{
+    width: 52%;
+    height: 52%;
+  }
+  .logo{
+    top: -15vmin;
+  }
+}
+
+@media only screen  and (max-width:340px ){
+ .logo{
+  top: -17vmin;
+ }
+ .welcome-heading{
+   top: 38vmin;
+   right: 4vmin;
+   width:60%;
+   text-align: center;
+ }
+
+ .final{
+   width: 80%;
+   top: 25vmin;
+   left: 6vmin;
+ }
+}
+/************************* MEDIA QUERIES END  ****************/
