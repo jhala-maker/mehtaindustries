@@ -531,10 +531,11 @@ body{
     text-align: center;
   }
   .our-products{
-    margin: 5vmin;
+    margin: auto;
+    margin-bottom: 15vmin;
   }
   .our-products img{
-    width: 75vw;
+    width: 70vw;
     margin: auto;
   }
   .flushdoor-desc2{
