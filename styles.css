@@ -536,6 +536,7 @@ body{
   }
   .our-products img{
     width: 70vw;
+    height: 100%;
     margin: auto;
   }
   .flushdoor-desc2{
