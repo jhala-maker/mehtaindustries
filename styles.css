@@ -123,7 +123,7 @@ body{
   display:flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5vmin;
+  margin-bottom: 15vmin;
 }
 
 .our-products img{
@@ -528,7 +528,7 @@ body{
     text-align: center;
   }
   .our-products{
-    margin-left: 5vmin;
+    margin: 5vmin;
   }
   .our-products img{
     width: 75vw;
